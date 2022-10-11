@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0
+}
+.container{
+  background:linear-gradient(to right bottom,rgb(173, 185, 197),rgb(227, 226, 232));
+  width:100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper{
+  background-color:rgb(5, 68, 101);
+  min-width: 450px;
+  min-height: 650px;
+  padding:30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px black;
+}
+.header h1{
+  color:azure;
+  text-align: center;
+  margin: 30px 0px;
+}
+.task-input{
+  outline:none;
+  width:250px;
+  padding:15px 15px;
+  font-size: 20px;
+  margin-right: 25px;
+  border-radius: 10px;
+  color:white;
+  background-color:rgb(35, 6, 6);
+  border:1px solid darkcyan;
+}
+.button-add{
+  width:70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border:0;
+  margin-left: 10px;
+  background-color: rgb(197, 196, 191);
+  cursor: pointer;
+}
+.list-item{
+  display: flex;
+  margin: 20px 0px;
+  border:1px solid rgb(207, 211, 220);
+  border-radius: 10px;
+  padding:10px;
+  max-height: 30px; 
+
+ } 
+.button-complete,
+.button-delete,
+.button-edit{
+  border:none;
+  outline:none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50px;
+}
+.button-complete{
+color:green;
+margin-right: 10px;
+}
+.button-delete{
+  color:red;
+  margin-right: 10px;
+}
+.button-edit{
+color:yellow;
+ margin-right: 10px;
+}
+.complete{
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: skyblue;
+  opacity: 0.6;
+}
+.list{
+width:220px;
+background-color:rgb(5, 68, 101);
+border: none;
+color:white;
+font-size: 20px;
+padding-left: 20px;
+margin-right: 15px;
+}
+input:focus,
+button:focus{
+  outline:none;
+}
+
+/* https://www.youtube.com/watch?v=dD0MdMRVHoo */
